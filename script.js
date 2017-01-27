@@ -4,8 +4,9 @@ function scriptCheck(){
 
 var seconds = 0;
 
-var timeElapsed = setInterval(function() {
-  seconds++;
-   document.getElementById("timer").innerHTML = seconds;
-   //console.log(seconds);
-},500);
+function timeElapsed(){
+  setInterval(function(){
+    seconds++;
+    document.getElementById("timer").innerHTML = seconds;
+  }, 500);
+}
