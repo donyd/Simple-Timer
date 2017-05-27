@@ -1,6 +1,6 @@
 # Simple-Timer
 
-**Description**: A simple timer project utilising asynchronous javascript 
+**Description**: A simple timer project utilising asynchronous javascript
 **Author**: Donal D'silva 
 
 _This is a first assignment project for the EDX course [Asychronous Programming with Javascript](https://www.edx.org/course/asynchronous-programming-javascript-microsoft-dev234x-0)_
