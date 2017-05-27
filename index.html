@@ -10,20 +10,23 @@
 <body>
   <div class="main">
     <h1>Stopwatch Demo</h1>
-    <p id="timer"></p>
+    <p id="timer">0</p>
 
   <div class="buttons">
-    <button onclick="stopStart(this)">Start</button>
-    <button onclick="stopStart(this)">Stop</button>
-    <button>Record Time</button>
-    <button>Reset Time</button>
+    <button onclick="startStop()">Start</button>
+    <button onclick="recordTime()">Record Time</button>
+    <button onclick="reset()">Reset</button>
   </div>
 
-  <div class="output">
+  <div class="display">
+    <p id="output"></p>
   </div>
 
   </div>
-  <script src="script.js"></script>
+  
+  <script src="script.js">
+  
+  </script>
 </body>
 
 </html>
